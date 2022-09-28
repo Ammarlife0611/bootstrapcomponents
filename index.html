@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
   </head>
-  <body>
+  <body class="Home">
 
 
 <nav class="navbar navbar-expand-lg bg-light">
@@ -44,6 +45,81 @@
     </div>
   </nav>
   <h1>Development of Email</h1>
+  <div class="container">
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="data:image/jpeg;base64,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" class="d-block w-100" alt="">
+      </div>
+      <div class="carousel-item">
+        <img src="https://th.bing.com/th/id/OIP.km3N0ZDIoYIKny8rEosrPgHaBN?w=347&h=60&c=7&r=0&o=5&pid=1.7" class="d-block w-100" alt="https://www.bing.com/images/search?view=detailV2&ccid=km3N0ZDI&id=404465895159B0A4EDD15783CDA2A281206F89EC&thid=OIP.km3N0ZDIoYIKny8rEosrPgHaBN&mediaurl=https%3a%2f%2fesputnik.com%2fphotos%2fshares%2fBlog%2fff5.png&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.926dcdd190c8a1820a9f2f2b128b2b3e%3frik%3d7IlvIIGios2DVw%26pid%3dImgRaw%26r%3d0&exph=138&expw=843&q=first+email+from+space+picture&simid=608017462349149235&FORM=IRPRST&ck=95CA71F1411F1FCDB5111DD0B4D236AE&selectedIndex=0&ajaxhist=0&ajaxserp=0">
+      </div>
+      <div class="carousel-item">
+        <img src="https://th.bing.com/th/id/OIP.4ykg2Dd6fWwtkv-R3NEacgHaEc?w=294&h=180&c=7&r=0&o=5&pid=1.7" class="d-block w-100" alt="https://www.bing.com/images/search?view=detailV2&ccid=4ykg2Dd6&id=E4A5033166BD974E3EA558350555CAE60AA5DEB0&thid=OIP.4ykg2Dd6fWwtkv-R3NEacgHaEc&mediaurl=https%3a%2f%2fi.guim.co.uk%2fimg%2fmedia%2f57c82fd16a7cf0a8137ceacaac40cdb2257ad4b5%2f0_56_1728_1037%2fmaster%2f1728.jpg%3fwidth%3d445%26quality%3d45%26auto%3dformat%26fit%3dmax%26dpr%3d2%26s%3d82abb7d935548618a70e73c12303a50e&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.e32920d8377a7d6c2d92ff91dcd11a72%3frik%3dsN6lCubKVQU1WA%26pid%3dImgRaw%26r%3d0&exph=534&expw=890&q=first+email+attatchment+in+1992&simid=608036901365691835&FORM=IRPRST&ck=76E58E7D919DCB21053855AB41E0B39E&selectedIndex=0&ajaxhist=0&ajaxserp=0">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="container">
+  </div>
+  <div class="gg"></div>
+  <div class="row">
+  <div class="col-md-4">
+    1978 First Email <br>
+    <img src="https://th.bing.com/th/id/OIP.ur7g4yIgBecax5avWwgACAHaFF?w=234&h=180&c=7&r=0&o=5&pid=1.7" alt="">
+  </div>
+  <div class="col-md-4">
+    1991 First Email From space <br>
+    <img src="https://th.bing.com/th/id/OIP.TTAbWWBS7EapUZHpzwRh4gHaDt?w=330&h=175&c=7&r=0&o=5&pid=1.7" alt="">
+  </div>
+  <div class="col-md-4">
+    1992 Attactching Files <br>
+    <img src="https://th.bing.com/th/id/OIP.Akx30Impsfo05FhFbYqYXQAAAA?w=207&h=184&c=7&r=0&o=5&pid=1.7" alt="">
+
+  </div>
+
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      1993 The Name Became Email <br>
+      <img src="https://th.bing.com/th/id/OIP.C0KAlAyN-1ITczolH4T5jAHaDQ?w=326&h=154&c=7&r=0&o=5&pid=1.7" alt="">
+    </div>
+    <div class="col-md-4">
+      1998 Spam Appeared <br>
+      <img src="https://th.bing.com/th/id/OIP.KsiEaOpO_6s57RzP4y_LNAHaE8?w=266&h=180&c=7&r=0&o=5&pid=1.7" alt="">
+    </div>
+  </div>
+  <div class="container footer">
+    <div class="row">
+      <table border="1">
+        <tr>
+            <th><a href="index.html"> Homepage</a></th>
+            <th><a href="page1.html"> 1978 First Email</a></th>
+            <th><a href="page2.html"> 1991 First Email From Space</a></th>
+            <th><a href="page3.html"> 1992 Attaching Files</a></th>
+            <th> <a href="page4.html"> 1993 The name became Email</a></th>
+           <th><a href="page5.html"> 1998 Spam Appeared </a></th>
+        </tr>
+        <tr>
+            <th></th>
+            <th>1978</th>
+            <th>1991</th>
+            <th>1992</th>
+            <th>1993</th>
+            <th>1998</th>
+        
+        </tr>
+    </table>
+    </div>
+  </div>
+</div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
   </body>
   </html>
